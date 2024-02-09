@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/image/ridz.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Riddler';
+    font-size: x-large;
+    color: rgb(30, 255, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative; /* Ajoutez cette ligne */
+    top: 50px; /* Ajustez cette valeur selon votre préférence */
+}
+
